@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ITT</title>
+        <link rel="stylesheet" href="Assets/Bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="Assets/Css/style.css">
+        <script src="Assets/Javascript/jquery.min.js"></script>
+        <script src="Assets/Javascript/bootstrap.min.js"></script>
+        <script src="Assets/Javascript/base.js" type="text/javascript"></script>
+    </head>
+    
+    <body>
+		
+		<div class="wrapper">
+            <nav id="sidebar">
+                <div class="sidebar-header">
+                   <center><b>Intelligent Target Testing</b></center>
+                    
+                </div>
+
+                <ul class="list-unstyled components">
+                    <li class="active user-action">
+                        <a href="home.html">
+                            User Action
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="#">
+                            User Feedback
+                        </a>
+                       
+                    </li>
+                    <li>
+                        <a href="#">
+                            Admin
+                        </a>
+                       
+                    </li>
+                    
+                </ul>
+            </nav>
+            <button type="button" id="sidebarCollapse" class="slider-home" ></button>
+		<div id="content">
+      
+      <p id="user-details" for="Knox-ID" >USER DETAILS</p>
+           
+
+            <form action="#">
+                <label for="Knox-ID" class="support-text st1" ><b>Please Enter your Knox ID</b></label><br>
+                    <input type="text" id="Knox-ID" style="background-color:#7ea2ce; color:white; width:70%;"><br>
+                      <br>
+                      
+                <label for="Least-Similarity" class="support-text"><b>Select Least-Similarity (in %)</b></label><br>
+
+                        <select id="Least-Similarity " style="background-color:#7ea2ce; padding-left:50% !important; color:white;width:70% ">
+                          
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10" selected>10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>  
+                            
+                        </select>
+                        <br>
+                        <br>
+                        
+
+                <label for="myFile" class="support-text"><b>Please Select Input File Path</b></label><br>
+                    <input type="file" id="myFile" accept=".csv" style="background-color:#7ea2ce; color:white;">
+                    <br>
+                    <br>
+                    
+                        
+                
+                <input type="submit" value="UPLOAD" class="upload">
+               </form>
+        </div>
+       
+        </div>
+
+         
+    </body>
+</html>
